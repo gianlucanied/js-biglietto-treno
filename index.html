@@ -4,9 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
   </head>
   <body>
-    <p id="mio_id"></p>
+    <div id="biglietto">
+      <div class="section-biglietto">
+        <div id="logo-trenitalia"><img src="italo.png" alt="" /></div>
+        <div id="section-right">
+          <p><b>Partenza</b></p>
+          <h1>17/11/2023</h1>
+        </div>
+      </div>
+      <div class="section-biglietto-1">
+        <div class="section-orario">
+          <p>Milano Centrale</p>
+          <h1>20:50</h1>
+        </div>
+        <div class="icon-treno">
+          <i class="fa-solid fa-train fa-2xl" style="color: #000000"></i>
+        </div>
+        <div class="section-orario-2">
+          <p>Napoli</p>
+          <h1>00:33</h1>
+        </div>
+      </div>
+
+      <div class="section-biglietto-1">
+        <div class="section-orario">
+          <p>Nome Passeggero</p>
+          <h1>Mario Rossi</h1>
+        </div>
+        <div class="section-orario-3">
+          <p>Prezzo</p>
+          <p id="mio_id"></p>
+        </div>
+      </div>
+      <div id="qr_code">
+        <img src="qr-italo.jpeg" alt="" />
+      </div>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>

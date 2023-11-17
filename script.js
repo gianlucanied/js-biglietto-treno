@@ -29,17 +29,17 @@ const euro = " €";
 // Applichiamo sconto del 20% per i minorenni
 
 if (userAge <= 18) {
-    document.getElementById("mio_id").innerHTML = frase + ((BigliettoNoSconto / 100) *80) + euro;
+    document.getElementById("mio_id").innerHTML = ((BigliettoNoSconto / 100) *80) + euro;
 }
 
 // Applichiamo sconto del 40% per over 65
 
 else if (userAge >= 65) {
-    document.getElementById("mio_id").innerHTML = frase + ((BigliettoNoSconto / 100) *60) + euro;
+    document.getElementById("mio_id").innerHTML = ((BigliettoNoSconto / 100) *60) + euro;
 }
 
 // Prezzo senza sconti
 
 else {
-    document.getElementById("mio_id").innerHTML = frase + BigliettoNoSconto + euro;
+    document.getElementById("mio_id").innerHTML = BigliettoNoSconto + euro;
 }
